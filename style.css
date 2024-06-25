@@ -94,3 +94,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 620px;
+  height: 620px;
+  gap: 16px;
+  border: 2px solid #535bf2;
+  padding: 16px;
+}
+
+.cell {
+  border: 2px solid #1a1a1a;
+  width: 100%;
+}
